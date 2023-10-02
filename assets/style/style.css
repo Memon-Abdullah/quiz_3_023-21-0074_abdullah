@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+}
+#left{
+    border-radius: 1px;
+    background-image : url('/img/4282077\ 1.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment:fixed;
+    height: 785px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 20px;
+    width: 250px;
+    height: 27px;
+    margin-right: 60px;
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    width: 60%;
+    height: 650px;
+}
+
+.fields{
+    border-radius: 4px;
+    padding: 0 5px;
+
+}
+.check{
+    font-size: 10px;
+}
+#signup{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding-bottom: 2px;
+}
+.heading{
+    font-family:'Oswald', sans-serif;
+}
+
+#logo{
+    position: fixed;
+    top: 0;
+    left: 8px;
+    font-family:cursive;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
